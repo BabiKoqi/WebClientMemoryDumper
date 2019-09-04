@@ -1,6 +1,8 @@
 # WebClientMemoryDumper
 Uses Harmony to intercept methods used by WebClient, xNet, etc. and log URLs
 
+![screenshot](https://a.kyot.me/lhfE.png)
+
 ### Features
 
 - Uses Harmony to hook `CreateThis` method from `System.Uri` and logs all URLs catched there
